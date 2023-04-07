@@ -1,0 +1,43 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.MyApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+<!--    <Button-->
+<!--        android:layout_weight="1"-->
+<!--        android:layout_marginVertical="15dp"-->
+<!--        android:layout_marginHorizontal="20dp"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:backgroundTint="@color/teal_700"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Login"/>-->
+
+    <style name="AppButton">
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginVertical" tools:targetApi="o">15dp</item>
+        <item name="android:layout_marginHorizontal" tools:targetApi="o">20dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/bg_button</item>
+
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="Theme.MyApp.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style name="Theme.MyApp.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.MyApp.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity">
+
+    <TextView
+        android:id="@+id/emailTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:text=""
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/passTxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text=""
+        android:layout_below="@+id/emailTxt"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginBottom="5dp"
+        android:textColor="@color/teal_700"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/logout_btn"
+        android:layout_below="@+id/passTxt"
+        android:layout_marginVertical="15dp"
+        android:layout_marginHorizontal="20dp"
+        android:layout_width="match_parent"
+        android:backgroundTint="@color/teal_700"
+        android:layout_height="wrap_content"
+        android:text="Logout"/>
+
+</RelativeLayout>
